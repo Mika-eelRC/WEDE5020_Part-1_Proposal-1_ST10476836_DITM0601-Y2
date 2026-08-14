@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description for basic SEO -->
+    <meta name="description" content="Get in touch with the Foundation for Community Work (FCW). Find our contact details, location map in Cape Town, and send us an inquiry.">
+    <title>Contact Us | Foundation for Community Work (FCW)</title>
+    <!-- Linking external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/fcw-logo.png" alt="Foundation for Community Work Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services & Programs</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="donate.html" class="nav-donate-btn">Donate Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+
+        <!-- PAGE BANNER / HEADER SECTION -->
+        <section class="page-header">
+            <h1>Contact Us & Get Involved</h1>
+            <p>Have questions about our ECD programs, volunteer opportunities, or resource drives? Reach out to our team today.</p>
+        </section>
+
+        <!-- CONTACT DETAILS & FORM SECTION -->
+        <section class="contact-container">
+            
+            <!-- DIRECT CONTACT INFO -->
+            <div class="contact-info">
+                <h2>Our Main Office</h2>
+                <p>Feel free to contact us via phone, email, or visit our office in Cape Town.</p>
+
+                <div class="info-item">
+                    <h3>Physical Address</h3>
+                    <p>Foundation for Community Work (FCW)<br>Cape Town, Western Cape, South Africa</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Email Us</h3>
+                    <p>General Inquiries: <a href="mailto:info@fcw.org.za">info@fcw.org.za</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Call Us</h3>
+                    <p>Phone: +27 (0)21 000 0000</p>
+                    <p>Office Hours: Monday – Friday: 08:00 – 16:00</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Direct Messaging</h3>
+                    <p>Need quick support? <a href="https://wa.me/27210000000" target="_blank" class="whatsapp-link">Chat with us on WhatsApp &rarr;</a></p>
+                </div>
+            </div>
+
+            <!-- INQUIRY FORM -->
+            <div class="contact-form-wrapper">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm" action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+27 82 000 0000">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Inquiry Type *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="program">Program Inquiry / Support Request</option>
+                            <option value="volunteer">Volunteering Opportunities</option>
+                            <option value="donation">Donations & Sponsorships</option>
+                            <option value="general">General Question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we assist you?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+                    <p id="statusMsg" class="status-msg"></p>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- EXTERNAL SERVICE INTEGRATION: GOOGLE MAPS EMBED -->
+        <section class="map-section">
+            <h2>Find Our Location</h2>
+            <div class="map-embed">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105985.33403166617!2d18.3758784!3d-33.9248685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x2d537080f00105ed!2sCape%20Town!5e0!3m2!1sen!2sza!4v1620000000000!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    title="FCW Physical Location Map">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-info">
+                <h3>Foundation for Community Work</h3>
+                <p>Registered Non-Profit Organisation (NPO)</p>
+                <p>Empowering children and families through accessible ECD services.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services & Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Location: Cape Town, Western Cape, South Africa</p>
+                <p>Email: info@fcw.org.za</p>
+                <p>Phone: +27 (0)21 000 0000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Foundation for Community Work (FCW). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LINKING JAVASCRIPT FILE FOR FORM VALIDATION -->
+    <script src="js/validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

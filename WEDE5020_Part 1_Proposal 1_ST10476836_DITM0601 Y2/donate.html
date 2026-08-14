@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description for basic SEO -->
+    <meta name="description" content="Support the Foundation for Community Work (FCW). Your donations fund early childhood development kits, home visits, and educational resources in South Africa.">
+    <title>Donate & Support | Foundation for Community Work (FCW)</title>
+    <!-- Linking external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/fcw-logo.png" alt="Foundation for Community Work Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services & Programs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="donate.html" class="active nav-donate-btn">Donate Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+
+        <!-- PAGE BANNER / HEADER SECTION -->
+        <section class="page-header">
+            <h1>Support Our Mission</h1>
+            <p>Your generosity helps us empower families and provide young children across the Western Cape with quality early education.</p>
+        </section>
+
+        <!-- DONATION IMPACT TIERS -->
+        <section class="donation-tiers">
+            <h2>Choose Your Impact Level</h2>
+            <p>Every contribution directly supports our community programs and home visits.</p>
+
+            <div class="tier-cards">
+                <article class="tier-card">
+                    <h3>R100</h3>
+                    <h4>Early Learning Materials</h4>
+                    <p>Provides a child with basic storybooks, drawing tools, and activity worksheets for home learning.</p>
+                </article>
+
+                <article class="tier-card featured-tier">
+                    <h3>R250</h3>
+                    <h4>Home-Visit Support</h4>
+                    <p>Sponsors a community fieldworker visit to assist caregivers with practical early development guidance.</p>
+                </article>
+
+                <article class="tier-card">
+                    <h3>R500</h3>
+                    <h4>Complete ECD Resource Kit</h4>
+                    <p>Funds a complete educational toy kit for local community playgroups and informal daycares.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- MOCK DONATION FORM & BANK DETAILS -->
+        <section class="donation-options">
+            
+            <!-- ONLINE MOCK DONATION FORM -->
+            <div class="donation-form-wrapper">
+                <h2>Make an Online Pledge / Donation</h2>
+                <form id="donationForm" action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="donorName">Full Name *</label>
+                        <input type="text" id="donorName" name="donorName" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="donorEmail">Email Address *</label>
+                        <input type="email" id="donorEmail" name="donorEmail" placeholder="johndoe@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="donationAmount">Donation Amount (ZAR) *</label>
+                        <select id="donationAmount" name="donationAmount" required>
+                            <option value="" disabled selected>Select an amount</option>
+                            <option value="100">R100 - Learning Materials</option>
+                            <option value="250">R250 - Fieldworker Home Visit</option>
+                            <option value="500">R500 - Community Resource Kit</option>
+                            <option value="custom">Custom Amount</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="paymentMethod">Preferred Payment Method *</label>
+                        <select id="paymentMethod" name="paymentMethod" required>
+                            <option value="" disabled selected>Select payment method</option>
+                            <option value="eft">Direct Bank Transfer (EFT)</option>
+                            <option value="card">Credit / Debit Card (Sandbox)</option>
+                            <option value="snapscan">SnapScan / Zapper</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Proceed to Donate</button>
+                    <p id="donationStatus" class="status-msg"></p>
+                </form>
+            </div>
+
+            <!-- DIRECT BANK TRANSFER DETAILS -->
+            <div class="banking-details">
+                <h2>Direct Bank Transfer (EFT)</h2>
+                <p>You can also make a direct deposit or electronic funds transfer using our official banking details below:</p>
+
+                <div class="bank-box">
+                    <p><strong>Account Name:</strong> Foundation for Community Work</p>
+                    <p><strong>Bank:</strong> Standard Bank / First National Bank</p>
+                    <p><strong>Account Number:</strong> 000 000 000</p>
+                    <p><strong>Branch Code:</strong> 000 000</p>
+                    <p><strong>Reference:</strong> Your Name + Donation</p>
+                    <p><strong>NPO Registration:</strong> 000-000 NPO</p>
+                </div>
+
+                <p class="tax-note"><em>Note: FCW is a registered non-profit organisation. Section 18A tax certificates can be issued upon request for eligible contributions.</em></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-info">
+                <h3>Foundation for Community Work</h3>
+                <p>Registered Non-Profit Organisation (NPO)</p>
+                <p>Empowering children and families through accessible ECD services.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services & Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Location: Cape Town, Western Cape, South Africa</p>
+                <p>Email: info@fcw.org.za</p>
+                <p>Phone: +27 (0)21 000 0000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Foundation for Community Work (FCW). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LINKING JAVASCRIPT FILE -->
+    <script src="js/validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
