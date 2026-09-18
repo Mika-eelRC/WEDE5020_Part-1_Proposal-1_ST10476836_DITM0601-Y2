@@ -65,6 +65,14 @@ fcw-website-root/
 
 ---
 
+## Changelog
+
+### Added
+* Added main homepage layout structure, including the navigation bar, hero banner section, mission statement summary, and community updates module.
+* Added external stylesheet integration for consistent structural styling.
+
+---
+
 ## Reference List
 
 Community Development Foundation, 2021. *Our Story*. Available at: [https://cdfwcape.org.za/history/](https://cdfwcape.org.za/history/) [Accessed: 3rd August 2026]
